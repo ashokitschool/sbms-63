@@ -1,0 +1,31 @@
+package in.ashokit;
+
+public class ShoppingCart {
+
+	private IPayment payment;
+
+	public ShoppingCart() {
+		System.out.println("ShoppingCart :: O-Param Constructor");
+	}
+
+	public ShoppingCart(IPayment payment) {
+		System.out.println("ShoppingCart :: Param Constructor");
+		this.payment = payment;
+	}
+
+	public void setPayment(IPayment payment) {
+		System.out.println("setPayment() - called...");
+		this.payment = payment;
+	}
+
+	public void checkout() {
+
+		boolean status = payment.pay(1000.00);
+
+		if (status) {
+			System.out.println("Order placed succcessfully..");
+		} else {
+			System.out.println("Payment failed...");
+		}
+	}
+}

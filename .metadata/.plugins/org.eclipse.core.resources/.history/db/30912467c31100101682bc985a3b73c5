@@ -1,0 +1,13 @@
+package in.ashokit;
+
+public class PetrolEngine {
+
+	public PetrolEngine() {
+		System.out.println("Engine :: Constructor");
+	}
+	
+	public boolean start() {
+		System.out.println("Engine started...");
+		return true;
+	}
+}

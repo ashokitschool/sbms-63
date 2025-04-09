@@ -1,0 +1,19 @@
+package in.ashokit;
+
+public class ATM {
+
+	private Printer printer;
+
+	public ATM() {
+		System.out.println("ATM :: 0-Param Constructor");
+	}
+	
+	public ATM() {
+		System.out.println("ATM :: 0-Param Constructor");
+	}
+
+	public void withdraw() {
+		System.out.println("Amount withdrawn successfully");
+		printer.print();
+	}
+}
