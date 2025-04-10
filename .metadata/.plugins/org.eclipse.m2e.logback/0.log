@@ -1287,3 +1287,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration Main (2) references
 2025-04-08 08:10:19,981 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-04-08 08:10:19,986 [Worker-36: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-04-08 08:10:19,988 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-04-09 07:42:07,496 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-09 07:44:36,405 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:04-IOC-App:0.0.1-SNAPSHOT @ E:\classes\63-SBMS\workspace\04-IOC-App\pom.xml.
+2025-04-09 07:44:38,673 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: in.ashokit:04-IOC-App:0.0.1-SNAPSHOT @ E:\classes\63-SBMS\workspace\04-IOC-App\pom.xml.
